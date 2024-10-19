@@ -1,0 +1,1833 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Utilisateur1/Documents/Projets/SometimeThereIsAcat-/SometimeThereIsAcat
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52559
+Successfully changed project path to: C:/Users/Utilisateur1/Documents/Projets/SometimeThereIsAcat-/SometimeThereIsAcat
+C:/Users/Utilisateur1/Documents/Projets/SometimeThereIsAcat-/SometimeThereIsAcat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2976] Host "[IP] 172.31.48.1 [Port] 0 [Flags] 2 [Guid] 17971761 [EditorId] 17971761 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-19K9AKIU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2976] Host "[IP] 172.31.48.1 [Port] 0 [Flags] 2 [Guid] 17971761 [EditorId] 17971761 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-19K9AKIU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 8.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Utilisateur1/Documents/Projets/SometimeThereIsAcat-/SometimeThereIsAcat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006327 seconds.
+- Loaded All Assemblies, in  0.454 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 703ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (58.0 KB). Loaded Objects now: 3555.
+Memory consumption went from 119.5 MB to 119.4 MB.
+Total: 2.981200 ms (FindLiveObjects: 0.244900 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.547800 ms  DeleteObjects: 0.095800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6089.811789 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.002659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.521448 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Air Conditioner B.fbx
+  artifactKey: Guid(baed23a5898014d499b7fc9fb8ed0bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Air Conditioner B.fbx using Guid(baed23a5898014d499b7fc9fb8ed0bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '00a4500cd5dc8734f3853749884d51c0') in 0.445201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Door Frame 2.fbx
+  artifactKey: Guid(1772297c1259eeb4796646d4f61f18fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Door Frame 2.fbx using Guid(1772297c1259eeb4796646d4f61f18fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f5773d1d9270c41a786897e326b0eed') in 0.021657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed Table Ac.fbx
+  artifactKey: Guid(8c119aeab2b81324c898be5d3dff745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed Table Ac.fbx using Guid(8c119aeab2b81324c898be5d3dff745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a9276b58a145b8cdc7fd8b8f593c2dcd') in 0.029550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed Ac 2.fbx
+  artifactKey: Guid(19de0432b69e8f146905ef7f2cd9e4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed Ac 2.fbx using Guid(19de0432b69e8f146905ef7f2cd9e4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '22010147967b597cdf81a33c9dcb4532') in 0.027843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ceiling Lamp 1 Clone.fbx
+  artifactKey: Guid(81af5abc282c5c8479f1b3be994d3424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ceiling Lamp 1 Clone.fbx using Guid(81af5abc282c5c8479f1b3be994d3424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e118e3e29a06f9cbf6b6afd1fed4455c') in 0.131065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Door 1.fbx
+  artifactKey: Guid(e4eeddb7959c6e04abec269fd6def52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Door 1.fbx using Guid(e4eeddb7959c6e04abec269fd6def52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2c622f039245ecec71a4189e2bf7105d') in 0.031463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bread Slice.fbx
+  artifactKey: Guid(ba724b9952edc044ca5b8fcdb2001396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bread Slice.fbx using Guid(ba724b9952edc044ca5b8fcdb2001396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c663fbcc481b714572bb8f017797747b') in 0.032058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Big Tree 1.fbx
+  artifactKey: Guid(3af7dab05ce402a4c850978ee7536335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Big Tree 1.fbx using Guid(3af7dab05ce402a4c850978ee7536335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f12b117d37225bbae477716bef7f840') in 0.026321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer B.fbx
+  artifactKey: Guid(60a98bc0c0534a44489623efb7aef832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer B.fbx using Guid(60a98bc0c0534a44489623efb7aef832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57f6a685bc73466afc6e2feb44c181d7') in 0.030756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Controller AC.fbx
+  artifactKey: Guid(e213836bbee721d42ac350434671509f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Controller AC.fbx using Guid(e213836bbee721d42ac350434671509f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd672e575b831b14ff1a31a45dfd1e49') in 0.026926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Chair 3.fbx
+  artifactKey: Guid(ce8f120867fe1274994cb37dcd0fda39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Chair 3.fbx using Guid(ce8f120867fe1274994cb37dcd0fda39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d5707afae48b490a79b6e2824583386') in 0.031312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Door 1.fbx
+  artifactKey: Guid(b6007ea1cfbe0db4db9af7fd94e876bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Door 1.fbx using Guid(b6007ea1cfbe0db4db9af7fd94e876bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '508a1233662d0250ad74d80f8aa19506') in 0.027817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ceiling Lamp 3.fbx
+  artifactKey: Guid(447a92cdb0a38b849b6f33092e0236bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ceiling Lamp 3.fbx using Guid(447a92cdb0a38b849b6f33092e0236bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ceec8c5177bfcfa39edef8da700d5ee0') in 0.029637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Coffee Machine.fbx
+  artifactKey: Guid(717c46d8f27470e4d870fec312c1df01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Coffee Machine.fbx using Guid(717c46d8f27470e4d870fec312c1df01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e293bd6d09680421ba03f2c0ba96cfa6') in 0.025384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Chair Ac.fbx
+  artifactKey: Guid(b5fe94baaae4f3a4f9e206e212ef1d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Chair Ac.fbx using Guid(b5fe94baaae4f3a4f9e206e212ef1d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12ff1b042e82b4c7f935fd04f6ea3b9e') in 0.023072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Ac 2 Old.fbx
+  artifactKey: Guid(54cc25abdb397974d9dea175418e13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Ac 2 Old.fbx using Guid(54cc25abdb397974d9dea175418e13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52cc86df28296f5380b43336feb00d7a') in 0.023036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Controller TV.fbx
+  artifactKey: Guid(59633bb38e93e3b4e9a7874ada80dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Controller TV.fbx using Guid(59633bb38e93e3b4e9a7874ada80dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b838517e71fbbd8aaee6a5d319c64a4') in 0.024145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Box Ac.fbx
+  artifactKey: Guid(95514f6f1c5cea345a42b005f4c1e76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Box Ac.fbx using Guid(95514f6f1c5cea345a42b005f4c1e76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '26b8be0cc3b86d1e04499f767bdb81e3') in 0.026038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer 1.fbx
+  artifactKey: Guid(db4305bf409cc5646bf57602ee466002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer 1.fbx using Guid(db4305bf409cc5646bf57602ee466002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b76090c8ba69e410b3ad6750b62e8605') in 0.022171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed 1 Ac.fbx
+  artifactKey: Guid(27c292d21e1186849b643b4e46de0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed 1 Ac.fbx using Guid(27c292d21e1186849b643b4e46de0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c8be1f401f81d990faa1d148bf38833') in 0.023924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed 2 Sheets.fbx
+  artifactKey: Guid(b0ebe2be62fa8c2488cc947505c98215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed 2 Sheets.fbx using Guid(b0ebe2be62fa8c2488cc947505c98215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1ff344eece9ca49f2fa44e882ae7aa0') in 0.023038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed Base 2 2.fbx
+  artifactKey: Guid(8710add496fc3234eb47f88483dae983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed Base 2 2.fbx using Guid(8710add496fc3234eb47f88483dae983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e158512dccaae235e7f657120610c5b0') in 0.023685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Book Open.fbx
+  artifactKey: Guid(1de88d78b1dcc8442b0efd6e51143b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Book Open.fbx using Guid(1de88d78b1dcc8442b0efd6e51143b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c63a9d67033e057bb038d4dbc12d327d') in 0.021640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Blinds Closed.fbx
+  artifactKey: Guid(232b6d7046ffa344b9f184f4543e45f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Blinds Closed.fbx using Guid(232b6d7046ffa344b9f184f4543e45f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc66af2cd38ad080b91fd19bc6cccf86') in 0.024562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Cutting Board.fbx
+  artifactKey: Guid(7f0373749b509b94d9cf9fe15471b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Cutting Board.fbx using Guid(7f0373749b509b94d9cf9fe15471b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1050b31c623a5cf7323d6278818c1e17') in 0.025416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Calculator.fbx
+  artifactKey: Guid(2166684413071d741a96c4836ed70ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Calculator.fbx using Guid(2166684413071d741a96c4836ed70ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25b53b42011c7f4bdd2d672b9ce1a204') in 0.026420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bathtub.fbx
+  artifactKey: Guid(16c69c379f27d1d47a9d2a707a675cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bathtub.fbx using Guid(16c69c379f27d1d47a9d2a707a675cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c763b9aafd65352405ee470295ab8ee') in 0.025107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Ac 1.fbx
+  artifactKey: Guid(e9e9273138ced0b4b945c4f59240594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Ac 1.fbx using Guid(e9e9273138ced0b4b945c4f59240594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0c7e3f638c96940506659dda14c96e7') in 0.025388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ceiling Fan Base.fbx
+  artifactKey: Guid(efc565a9d59098c4aac43b2f81c62d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ceiling Fan Base.fbx using Guid(efc565a9d59098c4aac43b2f81c62d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a16fb6aac979621cb62b983ac7d8d73d') in 0.028234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Counter Connected.fbx
+  artifactKey: Guid(6059bfacf08848b438ab0196812c89e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Counter Connected.fbx using Guid(6059bfacf08848b438ab0196812c89e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3869f1716c0c0589c9d56b1a48fe2de') in 0.027599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Coffee Table.fbx
+  artifactKey: Guid(503a692429189c14eb937033ce8392ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Coffee Table.fbx using Guid(503a692429189c14eb937033ce8392ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbb244d6677b8a1d161e11ac74811e5b') in 0.023983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed 2 Sheets (alt).fbx
+  artifactKey: Guid(e59f289c96cffe543a726d4a643d5454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Bed 2 Sheets (alt).fbx using Guid(e59f289c96cffe543a726d4a643d5454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3eccf48a48a8662ab53ea93fb8acd97a') in 0.023869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Cup Empty.fbx
+  artifactKey: Guid(bdc9a6eaf15fcee48b5466dafb672a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Cup Empty.fbx using Guid(bdc9a6eaf15fcee48b5466dafb672a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83d32bf6049e789064e88282615daa33') in 0.032876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.440186 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Door 2 Old - Small.fbx
+  artifactKey: Guid(988c428ad7b199c4299855ea3d84810c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Drawer Door 2 Old - Small.fbx using Guid(988c428ad7b199c4299855ea3d84810c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0340a01bbbf47bacc1c9c358741865bd') in 0.024534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 2 - Top.fbx
+  artifactKey: Guid(05d34649ea54d1e489167dd5b56f49d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 2 - Top.fbx using Guid(05d34649ea54d1e489167dd5b56f49d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b5ffa43855dd94e7f5676c8f3743865') in 0.027494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet 3.fbx
+  artifactKey: Guid(589930b9fa9866d418553b818df4745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet 3.fbx using Guid(589930b9fa9866d418553b818df4745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab92555b81d11682b5492868203a75c5') in 0.025872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Dryer Machine Ac.fbx
+  artifactKey: Guid(d2d11e732e85899439dbd4cbb8c0cb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Dryer Machine Ac.fbx using Guid(d2d11e732e85899439dbd4cbb8c0cb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b02087bfc0be140ffaa9303c4c9457b7') in 0.022817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Flower Wall Pot 2.fbx
+  artifactKey: Guid(3f087e044be59584a8ca806e6033bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Flower Wall Pot 2.fbx using Guid(3f087e044be59584a8ca806e6033bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dca9eeb051986841407da5f2d0d8780a') in 0.022692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Base Bottom.fbx
+  artifactKey: Guid(fa0f6dd7519437d48a653c5d265e5f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Base Bottom.fbx using Guid(fa0f6dd7519437d48a653c5d265e5f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a3f481304799bcf6bb8d7322f5f2a88') in 0.023431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Back.fbx
+  artifactKey: Guid(d57d5de6c391a5344be8974a04894b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Back.fbx using Guid(d57d5de6c391a5344be8974a04894b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0775bb6ea5a1980cd1f2985474447674') in 0.024619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Fridge Main Door.fbx
+  artifactKey: Guid(de9b0d98d8e907d4fa29003b94864a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Fridge Main Door.fbx using Guid(de9b0d98d8e907d4fa29003b94864a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b89effe22fe5b1edd024cf8eb07c544e') in 0.022557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Arms.fbx
+  artifactKey: Guid(858f261275d83a247b9f1a2d024af375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Arms.fbx using Guid(858f261275d83a247b9f1a2d024af375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87aa07813bc81bf8d16cf079143cc2b2') in 0.020962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Flower Pot Ac.fbx
+  artifactKey: Guid(0cb0359f427ac6f4e8f310fdd1cc3e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Flower Pot Ac.fbx using Guid(0cb0359f427ac6f4e8f310fdd1cc3e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb71806eb8b08cdf23846f7a892fc8cb') in 0.021200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 3 - Top.fbx
+  artifactKey: Guid(d6ff5193c44732c4c96c74e21f3f0fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 3 - Top.fbx using Guid(d6ff5193c44732c4c96c74e21f3f0fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be60ab258baa0d487eab62aa39dceaff') in 0.024345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Arms Base.fbx
+  artifactKey: Guid(4a2fb031e955138498e452c606e25901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Arms Base.fbx using Guid(4a2fb031e955138498e452c606e25901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b187349f3c57068ad0d4a8db32173f8b') in 0.022929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet 2.fbx
+  artifactKey: Guid(ac83ead53c7e1e64fb3ad3f03da00a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet 2.fbx using Guid(ac83ead53c7e1e64fb3ad3f03da00a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f7c0cbf50c851478cf1f2d4cdab4642') in 0.022526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 2 - Base.fbx
+  artifactKey: Guid(ebbee2d2d44eedd42ac1e59972277709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 2 - Base.fbx using Guid(ebbee2d2d44eedd42ac1e59972277709) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea585e927aed8ac6ea42455888fc1218') in 0.020806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Flower Wall Pot 3.fbx
+  artifactKey: Guid(8a6af8771bd9af345881bba14048f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Flower Wall Pot 3.fbx using Guid(8a6af8771bd9af345881bba14048f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6382e304edee16998e5284a7a860bd2') in 0.025142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 1 - Top.fbx
+  artifactKey: Guid(c3f5205b3d429d6408fb2907f3d14b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Faucet Ac 1 - Top.fbx using Guid(c3f5205b3d429d6408fb2907f3d14b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a0e71f14051482b1c741e8072351e5c0') in 0.023872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Ac.fbx
+  artifactKey: Guid(a2542cc0194d6654d8aef1d51fcad552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Ac.fbx using Guid(a2542cc0194d6654d8aef1d51fcad552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b851d20414bb31e424dd09e669bbff96') in 0.022481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.280963 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Wheel 002.fbx
+  artifactKey: Guid(486f4e0b8cbd8f648b00995dfe7c3a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Wheel 002.fbx using Guid(486f4e0b8cbd8f648b00995dfe7c3a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2123b772a94178528e24f624b54f8a01') in 0.023085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Kitchen Knob 003.fbx
+  artifactKey: Guid(b819cdfdf910e534fb58d4ad5775288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Kitchen Knob 003.fbx using Guid(b819cdfdf910e534fb58d4ad5775288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf883b845733596453e039b0121ab440') in 0.024238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Glass Filled.fbx
+  artifactKey: Guid(a19983ea7690ccc4e9cfe76c784d2a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Glass Filled.fbx using Guid(a19983ea7690ccc4e9cfe76c784d2a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c95e5736177044f8993ab5cce55f71d6') in 0.028495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Kitchen Knob 001.fbx
+  artifactKey: Guid(4495022c18cf16a4bb2c98e8cd3c3ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Kitchen Knob 001.fbx using Guid(4495022c18cf16a4bb2c98e8cd3c3ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1bed2564e8d2e849b1a697c0f32f3bdb') in 0.028781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Pen.fbx
+  artifactKey: Guid(1f1776d260672074ea286d01ae205c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Pen.fbx using Guid(1f1776d260672074ea286d01ae205c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '655118dfc990ea823020c053459fd3f3') in 0.026616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting 3.fbx
+  artifactKey: Guid(f5e07a4085bd2c04f827d39a41c59e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting 3.fbx using Guid(f5e07a4085bd2c04f827d39a41c59e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1949b0edba7cfbf6ecf85ab59e60cc95') in 0.036886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Mirror.fbx
+  artifactKey: Guid(9d57d679835c325499ad2e7faa71205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Mirror.fbx using Guid(9d57d679835c325499ad2e7faa71205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '658c499163d072d5561f2765a383a61f') in 0.022950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Modern Shelves.fbx
+  artifactKey: Guid(00e51214fa8b5764397e99c61a72900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Modern Shelves.fbx using Guid(00e51214fa8b5764397e99c61a72900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ea8047a9dde67bb44f930ed415e200e') in 0.022805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting 2.fbx
+  artifactKey: Guid(35b60a0942e49744ebbb195ccb3abdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting 2.fbx using Guid(35b60a0942e49744ebbb195ccb3abdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8c26926f9501d2263c66b13e47dd412') in 0.029645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Mailbox.fbx
+  artifactKey: Guid(f270127dbc76d5a4fbbe0882f44fa491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Mailbox.fbx using Guid(f270127dbc76d5a4fbbe0882f44fa491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0cbf89e50ab5cc4c20032b66b336fb73') in 0.026527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Oven Door.fbx
+  artifactKey: Guid(1030c8281bef6104b81dd6e6e4b3436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Oven Door.fbx using Guid(1030c8281bef6104b81dd6e6e4b3436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33b74f3313e6037cc4bfaa22f0cb2b3c') in 0.026616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ladder 2.fbx
+  artifactKey: Guid(266f2a6bbae4f0b41b8d9af2c57b5399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ladder 2.fbx using Guid(266f2a6bbae4f0b41b8d9af2c57b5399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d823e9a1536847196f54cb26351fe0d') in 0.035528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ladder 1 Base.fbx
+  artifactKey: Guid(83d36a0eb3c02d246a651c3fa1c57f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ladder 1 Base.fbx using Guid(83d36a0eb3c02d246a651c3fa1c57f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12d98f014dcf2db7d240cb31fa1155d7') in 0.035000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Hair Brush.fbx
+  artifactKey: Guid(a61cd393166552640a29dc296f79c74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Hair Brush.fbx using Guid(a61cd393166552640a29dc296f79c74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '548f76962d0108d5a979c356910fa619') in 0.032851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Knife Big.fbx
+  artifactKey: Guid(b860bd7ce7ecea64b928f8d016bd3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Knife Big.fbx using Guid(b860bd7ce7ecea64b928f8d016bd3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a78a61fbadfe3fb2b083155bc20f9b97') in 0.035640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Wheel 004.fbx
+  artifactKey: Guid(b9170ac345c4ff442bd5d880fe609c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Gamer Chair Wheel 004.fbx using Guid(b9170ac345c4ff442bd5d880fe609c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '525ff4f96c40f55bced249c7b7995789') in 0.034743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Laptop Screen.fbx
+  artifactKey: Guid(8d8ac7a3885a27e4ab295ca29a4e57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Laptop Screen.fbx using Guid(8d8ac7a3885a27e4ab295ca29a4e57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3891f89effd2d76ff643bf156fcc10fc') in 0.036540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Oven Stray.fbx
+  artifactKey: Guid(c303668ce81f53e489454db393d1cfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Oven Stray.fbx using Guid(c303668ce81f53e489454db393d1cfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32aff3ad016f1323fe5da5fa8cb10ebf') in 0.026744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Mirror 2.fbx
+  artifactKey: Guid(9c5699643fde9694b96b918504f4bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Mirror 2.fbx using Guid(9c5699643fde9694b96b918504f4bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e391b2e46ec2e207c7a643e4741e6d0') in 0.036000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Knife Simple.fbx
+  artifactKey: Guid(577ac21b355ca0c46a27419165f773f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Knife Simple.fbx using Guid(577ac21b355ca0c46a27419165f773f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd71f0f4b82966c9d02698cd564a6e233') in 0.035835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ladder 1.fbx
+  artifactKey: Guid(a5394073c05e76f4b98fdf4cee483c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Ladder 1.fbx using Guid(a5394073c05e76f4b98fdf4cee483c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2282b65df9da9c148c05d1365bb08aad') in 0.032332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting Small 4.fbx
+  artifactKey: Guid(b11c88e902625a94f9db20759a2cdef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting Small 4.fbx using Guid(b11c88e902625a94f9db20759a2cdef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96a6748d989a83bc4b0bacef898b30de') in 0.038957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting Small 1.fbx
+  artifactKey: Guid(842419d47a92e0f43919b009082ab7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Painting Small 1.fbx using Guid(842419d47a92e0f43919b009082ab7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cdd1604b278339cdd636457bb9c0d16') in 0.029311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Perfume 1.fbx
+  artifactKey: Guid(de67ec5edb5bd764293f2ae2884afb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Perfume 1.fbx using Guid(de67ec5edb5bd764293f2ae2884afb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '972f323cbeb00ccc0837cf48a0de5992') in 0.024894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Laptop Base.fbx
+  artifactKey: Guid(803027a0c09933a43b72792c261577b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Laptop Base.fbx using Guid(803027a0c09933a43b72792c261577b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d165227cb0eaf599adc70a82d1766f6') in 0.025966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.285346 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Perfume Acc.fbx
+  artifactKey: Guid(e057ead9be5fce04683d4dd86575dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Perfume Acc.fbx using Guid(e057ead9be5fce04683d4dd86575dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '293caabeac3dde7398b5fd9d4437086c') in 0.023948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock Path 4.fbx
+  artifactKey: Guid(ae49346f2d0aff6418e3e218e794f7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock Path 4.fbx using Guid(ae49346f2d0aff6418e3e218e794f7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd993414ebd36ff740fd87a1dcfd8a1d') in 0.023020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Poster 2.fbx
+  artifactKey: Guid(df4a0a63f619aaf4a83eb466031bd3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Poster 2.fbx using Guid(df4a0a63f619aaf4a83eb466031bd3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb523abc60fb5919fee759d8a0b9dfe6') in 0.032867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Shelf.fbx
+  artifactKey: Guid(c9da4f2df9b87e641a7974c087a17f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Shelf.fbx using Guid(c9da4f2df9b87e641a7974c087a17f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b32cf6324335394e6a5971282949267a') in 0.028272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Coffee.fbx
+  artifactKey: Guid(cb81f1df437e08c4ebec2e79c940edaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Coffee.fbx using Guid(cb81f1df437e08c4ebec2e79c940edaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10ee46814b50d1255b431461f0e3ae42') in 0.027501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Cereal Box.fbx
+  artifactKey: Guid(655d6f0ee2372294fab12764c7277fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Cereal Box.fbx using Guid(655d6f0ee2372294fab12764c7277fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5347911eb57397ff68aaa23e5088e836') in 0.024919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rug 1.fbx
+  artifactKey: Guid(e6a4e6244b33b2546b506476ab2dc634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rug 1.fbx using Guid(e6a4e6244b33b2546b506476ab2dc634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '756ed86a8584eb1a224eacd76ae9cb89') in 0.025024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock Path 2.fbx
+  artifactKey: Guid(3ce8cff39ac37be4aacd47effff7033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock Path 2.fbx using Guid(3ce8cff39ac37be4aacd47effff7033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '09aa5afd6e0ddedeb0689def83c9f51a') in 0.032910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Pillow Bed.fbx
+  artifactKey: Guid(3e67c0f9727475142b12becc6494e5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Pillow Bed.fbx using Guid(3e67c0f9727475142b12becc6494e5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce50595ccc44f455d8acb15509636264') in 0.025566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Printer Acc2.fbx
+  artifactKey: Guid(972c4bbc08fd59e47824bb81ad6ee7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Printer Acc2.fbx using Guid(972c4bbc08fd59e47824bb81ad6ee7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f6541501f4a6ad136c2331169ce37637') in 0.027172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Screwdriver 1.fbx
+  artifactKey: Guid(84515f59c1c7f5f4aa48554d70391df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Screwdriver 1.fbx using Guid(84515f59c1c7f5f4aa48554d70391df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6316a35407c33ea6deaf332d353656cc') in 0.025916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Coffee Handle.fbx
+  artifactKey: Guid(03ef8d63495366e4aa29fcd52f4b0624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Coffee Handle.fbx using Guid(03ef8d63495366e4aa29fcd52f4b0624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6a02ed1ec2540a1d3042bc91cfbefee') in 0.026544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Milk Box.fbx
+  artifactKey: Guid(76906e03cc242da48b307e9f2997dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Milk Box.fbx using Guid(76906e03cc242da48b307e9f2997dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54d9b358a2a71ab1ba84df98d9b215cf') in 0.023411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Plate Small.fbx
+  artifactKey: Guid(b68da333dcd02bf48b6e2c817156feea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Plate Small.fbx using Guid(b68da333dcd02bf48b6e2c817156feea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58a1d6c6b8f42ec6ce026ae9a752299a') in 0.022721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Curtains Closed.fbx
+  artifactKey: Guid(b8acfd6008c69af4290159990431ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Curtains Closed.fbx using Guid(b8acfd6008c69af4290159990431ae6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cca495578bd2a4945374c188025cc875') in 0.021010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof.fbx
+  artifactKey: Guid(ae4ef652dbc29f04e86ff225f199936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof.fbx using Guid(ae4ef652dbc29f04e86ff225f199936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e8127791d2a62f0fed7e0b80add8b57') in 0.024567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Shower.fbx
+  artifactKey: Guid(3b603b1e0154b3c4a89f631112137045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Shower.fbx using Guid(3b603b1e0154b3c4a89f631112137045) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48aef53353019b9d75f6218cc48deaae') in 0.024401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock 1.fbx
+  artifactKey: Guid(aad7f9ebea17a0e4486749c963635eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock 1.fbx using Guid(aad7f9ebea17a0e4486749c963635eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '127eb8af171fda9276b0fcdd1b13461b') in 0.026344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Printer Acc1.fbx
+  artifactKey: Guid(f9234ddb6f068ac45ab7b3c9e802e404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Printer Acc1.fbx using Guid(f9234ddb6f068ac45ab7b3c9e802e404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0e53c3301850672af9a10c0d51ab7b5') in 0.022212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock Path 3.fbx
+  artifactKey: Guid(a36fdf545df8d204bbb6bd83d0cab7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Rock Path 3.fbx using Guid(a36fdf545df8d204bbb6bd83d0cab7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9f9be095f5cd9c5e9d73a08e7807c4a0') in 0.025697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof Border 2 1x1.fbx
+  artifactKey: Guid(a9181107e0b0994468f8ec45f4ea12c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof Border 2 1x1.fbx using Guid(a9181107e0b0994468f8ec45f4ea12c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bbeffe6caa9295942c27281c0a9e6bf') in 0.024900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Plant Deco 1.fbx
+  artifactKey: Guid(78b9425876a5cbc49bac2e57bc601533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Plant Deco 1.fbx using Guid(78b9425876a5cbc49bac2e57bc601533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ff7fc8c6022a9098b352027e59bee00') in 0.021336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof Border 2.fbx
+  artifactKey: Guid(492e6fb50f262924dad4eb8cdc4909bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof Border 2.fbx using Guid(492e6fb50f262924dad4eb8cdc4909bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bd12a2b53f8034a9d11a6f719fdd794') in 0.023149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Plate Big.fbx
+  artifactKey: Guid(0415ca912c8fbda4d98201e69dc69b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Plate Big.fbx using Guid(0415ca912c8fbda4d98201e69dc69b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f965c7fff0540178578a114eb50f69e6') in 0.023516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Puff.fbx
+  artifactKey: Guid(70d572f4e6cdf354fa95bf6bf72274ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Puff.fbx using Guid(70d572f4e6cdf354fa95bf6bf72274ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f1554811def4d576a99b1299bbddf47') in 0.026373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof Border 1 45deg.fbx
+  artifactKey: Guid(5449656962e8c6f49b9f9993a2d63aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Roof Border 1 45deg.fbx using Guid(5449656962e8c6f49b9f9993a2d63aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e94e1dab66f8d338bc3bad256adf05c') in 0.024086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.044878 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Table Outside.fbx
+  artifactKey: Guid(20ccd87c376d59b4a9d8f7ff74f06aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Simple Table Outside.fbx using Guid(20ccd87c376d59b4a9d8f7ff74f06aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fdfe969f4abc5c5b90339853c354757') in 0.024084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Terrain 1.fbx
+  artifactKey: Guid(389054ae2bb858a478b2a109add01f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Terrain 1.fbx using Guid(389054ae2bb858a478b2a109add01f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc64cb1295c7b1e7df2bf13aac3a9b0b') in 0.023569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Smartphone 1.fbx
+  artifactKey: Guid(fe4115b37da4f4d488d322f875f1268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Smartphone 1.fbx using Guid(fe4115b37da4f4d488d322f875f1268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ced3f513d91f15c03a26edd9ae2a480b') in 0.029936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Stray 3.fbx
+  artifactKey: Guid(bef1022bcef83ea40a29c88cca49d8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Stray 3.fbx using Guid(bef1022bcef83ea40a29c88cca49d8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ec6f38ce7bdd389b2b291297948d4c3') in 0.024997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Spoon Simple.fbx
+  artifactKey: Guid(5e241ef0d549f944b8754b562ecbb2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Spoon Simple.fbx using Guid(5e241ef0d549f944b8754b562ecbb2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '960c6464aba73e8d8d7c2cef03b006e3') in 0.028110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/SimpleSmall Box.fbx
+  artifactKey: Guid(26cb50613a3cd2a4db6d704e95861358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/SimpleSmall Box.fbx using Guid(26cb50613a3cd2a4db6d704e95861358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23b46b1b5d4bee3a23b49b6b0b50c987') in 0.026686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Soap.fbx
+  artifactKey: Guid(2f77b88a33c0f0c4eb454a50e5a7bb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Soap.fbx using Guid(2f77b88a33c0f0c4eb454a50e5a7bb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bfe85ee3db252276c0c702eec416a94') in 0.027484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Tape.fbx
+  artifactKey: Guid(2d2a87b80f66f4945b438fc86692493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Tape.fbx using Guid(2d2a87b80f66f4945b438fc86692493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca6918f0ed05282d6d9af07f5132d52d') in 0.027454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Toaster.fbx
+  artifactKey: Guid(3f19281e7d218544691781c36b853ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Toaster.fbx using Guid(3f19281e7d218544691781c36b853ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96dd2b8a8184be4a4abd79bbdc977f34') in 0.029388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Sink.fbx
+  artifactKey: Guid(57331a414ddada24d91c1e86443981bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Sink.fbx using Guid(57331a414ddada24d91c1e86443981bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bfcfd9407fc33fec5c0dc50cdd880d3d') in 0.027397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Tire.fbx
+  artifactKey: Guid(635dd20d61de24d418e6c479439fbf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Tire.fbx using Guid(635dd20d61de24d418e6c479439fbf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2021ed92c880517c4358a67f7cbeea96') in 0.025826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/SimpleSmall Box Top.fbx
+  artifactKey: Guid(2cd767674799af94db2f4f6e8314e87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/SimpleSmall Box Top.fbx using Guid(2cd767674799af94db2f4f6e8314e87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c094374afa54e4fe52ff879f200bbf10') in 0.025062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.425255 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Toolbox Handle.fbx
+  artifactKey: Guid(151d01795665bb4468de28f151cd4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Toolbox Handle.fbx using Guid(151d01795665bb4468de28f151cd4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2c39c4874f4413e154a6e6269f5bd93b') in 0.027351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Towel Base.fbx
+  artifactKey: Guid(c35033f0b909e964f9681fc26de794d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Towel Base.fbx using Guid(c35033f0b909e964f9681fc26de794d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ad904a70ca720c6773a1010275373383') in 0.027535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Column 4.fbx
+  artifactKey: Guid(7a6110e18ba183d4d8f0bfaa1a4d6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Column 4.fbx using Guid(7a6110e18ba183d4d8f0bfaa1a4d6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f99f218223c9a03b137875c008479ec1') in 0.025486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Half.fbx
+  artifactKey: Guid(2d8fc1c47a636db4c824be9228fd1854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Half.fbx using Guid(2d8fc1c47a636db4c824be9228fd1854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '521ad542816edf025297d18dfc4a6ce3') in 0.032399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Column 3.fbx
+  artifactKey: Guid(2dbc9916c16597b4bb6f6e7356615ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Column 3.fbx using Guid(2dbc9916c16597b4bb6f6e7356615ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc639e8a3c85b4691c53b1fe7d3c6a75') in 0.027545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Window 1.fbx
+  artifactKey: Guid(4355723d6d055ff4db34b861fdcb16a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Window 1.fbx using Guid(4355723d6d055ff4db34b861fdcb16a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5352327da4981da7251e9011f2e39e8') in 0.034379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Border B.fbx
+  artifactKey: Guid(5bbe558feea3f324487e9f4e57d5a7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Border B.fbx using Guid(5bbe558feea3f324487e9f4e57d5a7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a90302f4f46efc9bddf0089645b988b7') in 0.029651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Window 5 - B.fbx
+  artifactKey: Guid(430b08e12ff17054a84155c736da98a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Window 5 - B.fbx using Guid(430b08e12ff17054a84155c736da98a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ece2f99de8e4c9598d210470357ff5fc') in 0.035974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Toy House.fbx
+  artifactKey: Guid(fb9213a00a4b9b0499259b2966453f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Toy House.fbx using Guid(fb9213a00a4b9b0499259b2966453f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '563178beb10f989fdd665e288b0c0841') in 0.028012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Corner (alt).fbx
+  artifactKey: Guid(c07e541be550b0249b6b9f979438dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Corner (alt).fbx using Guid(c07e541be550b0249b6b9f979438dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a98224716b630f42eacc57c3588b197b') in 0.033635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Corner Border X.fbx
+  artifactKey: Guid(819face0925dffd49a01c615f1941dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Corner Border X.fbx using Guid(819face0925dffd49a01c615f1941dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1a759ac595c880a0a33547676e3cdaf') in 0.028605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Window 3 - B.fbx
+  artifactKey: Guid(fa37cee7b27f28d4cb614a050ef2b4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard 1x3 Window 3 - B.fbx using Guid(fa37cee7b27f28d4cb614a050ef2b4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '520ad64a986e8781ae1c75770fe4528d') in 0.033172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Towel 2.fbx
+  artifactKey: Guid(ee998b98730f211409823f4b7ad68d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Towel 2.fbx using Guid(ee998b98730f211409823f4b7ad68d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e391c39dc1f8363f5d2adf3509f62eec') in 0.024350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.574313 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Roof triangle 1x3 45deg.fbx
+  artifactKey: Guid(587238738f4003a468761138036e7e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Roof triangle 1x3 45deg.fbx using Guid(587238738f4003a468761138036e7e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'daf99c5906914806eccfce9134f6855d') in 0.042075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Window 5 - B.fbx
+  artifactKey: Guid(be96a67a95efb8446a1ab30dd5e552e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Window 5 - B.fbx using Guid(be96a67a95efb8446a1ab30dd5e552e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23f199b6f29bf74a3cc8b02e27f1f573') in 0.045162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Window Frame Ac 4.fbx
+  artifactKey: Guid(39faee77a6224094da6cf8227616242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Window Frame Ac 4.fbx using Guid(39faee77a6224094da6cf8227616242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '285b826364906e074a8dda067c36192d') in 0.032544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Window 2.fbx
+  artifactKey: Guid(90c96ffe94e7e2e40810a983b62687bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Window 2.fbx using Guid(90c96ffe94e7e2e40810a983b62687bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '081c85497e73a5f51f570998f331beb5') in 0.034907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Window Frame 3.fbx
+  artifactKey: Guid(dead90e333082884daffd9868582dd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Window Frame 3.fbx using Guid(dead90e333082884daffd9868582dd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '000753d8dac2c79ed119dd7fc733deaa') in 0.029152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Washing Machine Ac.fbx
+  artifactKey: Guid(018542aec4daea6429abcc2a4ba4718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Washing Machine Ac.fbx using Guid(018542aec4daea6429abcc2a4ba4718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd9058a82fb0f273192aff1425249f39') in 0.026371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Window 1.fbx
+  artifactKey: Guid(3b2b45c894b451f48895f1c239a84f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Wall Standard Window 1.fbx using Guid(3b2b45c894b451f48895f1c239a84f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23aea052f56bb870adce7218acf08e8f') in 0.034509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Washing Machine.fbx
+  artifactKey: Guid(ebbcd55562ccaf34d84c9d53547f9405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Washing Machine.fbx using Guid(ebbcd55562ccaf34d84c9d53547f9405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c69ba36c602a7e653bfc7cd012117da5') in 0.024952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Window Frame 1 C.fbx
+  artifactKey: Guid(01146303bbc79ca46973de73d8d3d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/VNB Low Poly Home Set/FBX/Separated/Window Frame 1 C.fbx using Guid(01146303bbc79ca46973de73d8d3d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4158b1aedc6c52ccdcd308c0018ff00') in 0.027932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
